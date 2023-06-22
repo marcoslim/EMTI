@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: white;
+}
+/*cabeçalho do site*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#logo {
+    width: 200px;
+}
+.menu ul li{
+        display: inline;
+}
+.menu > ul > li a:link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.menu > ul > li a:hover{
+    border-bottom: 2px solid green;
+}
+.menu > ul > li a:active{
+    color: black;
+    border-bottom: 2px solid green;
+}
+#ativo{
+    border-bottom: 2px solid green;
+}
+
+
+/*seções*/
+#banner-principal {
+    width: 100%;
+}
+.containier {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: white;
+}
+.conteúdo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    max-width: 20%;
+}
+.banner {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40%;
+}
+#video {
+ background: rgba(135,200,120,1);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 500px;
+ border-bottom: 3px solid orange;
+}
+
+#video > .containier > img{
+    height: 315px;
+}
+/*rodape*/
+footer{
+    text-align: center;
+    padding: 20px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: black;
+}
